@@ -5,7 +5,11 @@ const Emoji_Engine = props => {
     const emoji_dict = {
         'unicorn' : '🦄',
         'verdeblocks' : '🐳',
-        'bazaar' : '🍆'
+        'bazaar' : '🍆',
+        'defungable' : '🧁',
+        'zero' : '🧬',
+        'nepal' : '🌌',
+        'budoverflow' : '👽'
     }
 
     return (
