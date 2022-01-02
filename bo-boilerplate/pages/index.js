@@ -1,3 +1,4 @@
+import Emoji_Engine from "../component/emoji_engine";
 
 export default function Home() {
   return (
@@ -19,10 +20,11 @@ export default function Home() {
       </header>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-
+        <Emoji_Engine label="unicorn"/>
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
           <a href="" 
           className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
+            <Emoji_Engine label="verdeblocks"/>
             <h3 className="text-2xl font-bold">VerdeBlocks &rarr;</h3>
             <p className="mt-4 text-xl">
               <code>The future of energy</code>
@@ -61,6 +63,32 @@ export default function Home() {
             </p>
             <p>
               All health data combined in one place. Get ultimate precision in healthcare optimization using cutting edge scientific research.
+            </p>
+          </a>
+
+          <a
+            href=""
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <h3 className="text-2xl font-bold">Bazaar &rarr;</h3>
+            <p className="mt-4 text-xl">
+              <code>Global, decentralized, infinitely scalable, sustainable food supply</code>
+            </p>
+            <p>
+              Bazaar solves a global problem with a local solution. Global network of local food producers will eliminate the need for a bloated inefficient supply chain
+            </p>
+          </a>
+
+          <a
+            href=""
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <h3 className="text-2xl font-bold">The Nepal Initiative &rarr;</h3>
+            <p className="mt-4 text-xl">
+              <code>Liberating Nepali infrastructure through Web3</code>
+            </p>
+            <p>
+              Nepali technology and economic development has been stymied in the past due to politics. The Nepal Initiative utilizes web3 in all its capacities to bring Nepal to the forefront of the web3 revolution.
             </p>
           </a>
         </div>
