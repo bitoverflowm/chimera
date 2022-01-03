@@ -17,7 +17,7 @@ const Emoji_Engine = props => {
             <span         
             role="img"
             aria-label={props.label}
-            className='text-2xl'
+            className='text-3xl'
             >
                 {emoji_dict[props.label]}
             </span>
