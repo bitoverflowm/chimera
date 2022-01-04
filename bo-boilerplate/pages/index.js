@@ -1,5 +1,5 @@
-import Emoji_Engine from "../component/emoji_engine";
-import More from "../component/more";
+import Emoji_Engine from "../components/emoji_engine";
+import More from "../components/more";
 
 export default function Home() {
   return (
@@ -98,9 +98,10 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <More />
       </main>
       
-      <More />
+      
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
 

@@ -9,7 +9,11 @@ const Emoji_Engine = props => {
         'defungable' : '🧁',
         'zero' : '🧬',
         'nepal' : '🌌',
-        'budoverflow' : '👽'
+        'budoverflow' : '👽',
+        'BitOverflowTV' : '👀',
+        'Nasdaq: TradeTalks' : '🤙',
+        'Solving Digital Asset Transfers' : '👩‍💻',
+        'VerdeBlocks for Sustainable Power' : '🧊',
     }
 
     return (
