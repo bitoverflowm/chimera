@@ -15,7 +15,7 @@ const Emoji_Engine = props => {
         'Solving Digital Asset Transfers' : '👩‍💻',
         'VerdeBlocks for Sustainable Power' : '🧊',
         'EventMe': '🎉',
-        'PayUp': '💸'
+        'PayUp': '💸',
         'Mariott Data Breach' : '👾',
         'VentureBeat': '💩',
         'BestLife': '🌈'
