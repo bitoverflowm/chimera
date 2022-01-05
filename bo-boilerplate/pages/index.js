@@ -21,8 +21,13 @@ export default function Home() {
       </header>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <Emoji_Engine label="unicorn"/>
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
+        <div className="flex relative mt-6 text-5xl">
+            <Emoji_Engine label="unicorn" size='text-5xl'/>
+            <div className="text-black font-bold mt-2">
+              CURRENT WORK.
+            </div>
+        </div>    
+        <div className="flex flex-wrap items-center justify-around max-w-7xl mt-6 sm:w-full">
           <a href="" 
           className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
             <Emoji_Engine label="verdeblocks"/>
