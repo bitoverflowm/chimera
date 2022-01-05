@@ -14,6 +14,9 @@ const Emoji_Engine = props => {
         'Nasdaq: TradeTalks' : '🤙',
         'Solving Digital Asset Transfers' : '👩‍💻',
         'VerdeBlocks for Sustainable Power' : '🧊',
+        'Mariott Data Breach' : '👾',
+        'VentureBeat': '💩',
+        'BestLife': '🌈'
     }
 
     return (
@@ -21,7 +24,7 @@ const Emoji_Engine = props => {
             <span         
             role="img"
             aria-label={props.label}
-            className='text-3xl'
+            className={props.size ? props.size : 'text-3xl'}
             >
                 {emoji_dict[props.label]}
             </span>

@@ -12,7 +12,11 @@ const Tag_Engine = props => {
         'Clean Energy' : 'bg-cyan-800',
         'Sustainability' : 'bg-emerald-900',
         'Energy and Power' : 'bg-fuchsia-900',
-        'Infrastucture': 'bg-indigo-900',
+        'Infrastucture' : 'bg-indigo-900',
+        'Cyber Security' : 'bg-cyan-500',
+        'Bitcoin' : 'bg-orange-500',
+        'Music' : 'bg-indigo-600',
+        'Live Events' : 'bg-violet-500'
     }
 
     return (
