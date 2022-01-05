@@ -102,6 +102,32 @@ export default function Home() {
               Nepali technology and economic development has been stymied in the past due to politics. The Nepal Initiative utilizes web3 in all its capacities to bring Nepal to the forefront of the web3 revolution.
             </p>
           </a>
+          <a
+            href=""
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <Emoji_Engine label="EventMe"/>
+            <h3 className="text-2xl font-bold">EventMe &rarr;</h3>
+            <p className="mt-4 text-xl">
+              <code>Fast, simple and efficient event hosting.</code>
+            </p>
+            <p>
+              EventMe makes hosting a party fun and easy. Create, invite and manage everything for your next event with a few clicks.
+            </p>
+          </a>
+          <a
+            href=""
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <Emoji_Engine label="PayUp"/>
+            <h3 className="text-2xl font-bold">PayUp &rarr;</h3>
+            <p className="mt-4 text-xl">
+              <code>Decentralize crypto payments anywhere in the world</code>
+            </p>
+            <p>
+              PayUp bring crypto payments to every online and physical store near you. Our state of the art algorithm allows users to pay in crypto and venders to get paid in their local currency.
+            </p>
+          </a>
         </div>
         <More />
       </main>

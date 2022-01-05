@@ -14,6 +14,8 @@ const Emoji_Engine = props => {
         'Nasdaq: TradeTalks' : '🤙',
         'Solving Digital Asset Transfers' : '👩‍💻',
         'VerdeBlocks for Sustainable Power' : '🧊',
+        'EventMe': '🎉',
+        'PayUp': '💸'
         'Mariott Data Breach' : '👾',
         'VentureBeat': '💩',
         'BestLife': '🌈'
