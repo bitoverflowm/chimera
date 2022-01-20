@@ -16,7 +16,6 @@ const Card = props => {
             <p>
               <code>{data.desc}</code>
             </p>
-
         </a>
     )
         
@@ -25,4 +24,4 @@ const Card = props => {
 
 export default Card;
 
-//<Tag_Engine tags={data.tags} />
+//<Tag_Engine tags={data.desc} />
