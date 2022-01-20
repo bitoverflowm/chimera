@@ -2,14 +2,16 @@ import React from 'react';
 
 
 const Emoji_Engine = props => {
+
+
     const emoji_dict = {
         'unicorn' : '🦄',
-        'verdeblocks' : '🐳',
-        'bazaar' : '🍆',
-        'defungable' : '🧁',
-        'zero' : '🧬',
-        'nepal' : '🌌',
-        'budoverflow' : '👽',
+        'VerdeBlocks' : '🐳',
+        'Bazaar' : '🍆',
+        'Defungable' : '🧁',
+        '0_o' : '🧬',
+        'The Nepal Initiative' : '🌌',
+        'BudOverflow' : '👽',
         'BitOverflowTV' : '👀',
         'Nasdaq: TradeTalks' : '🤙',
         'Solving Digital Asset Transfers' : '👩‍💻',

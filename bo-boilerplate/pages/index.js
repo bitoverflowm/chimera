@@ -37,7 +37,6 @@ const Home = ({overViewData, moreData}) => {
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <div className="flex relative mt-6 text-5xl">
-            <Emoji_Engine label="unicorn" size='text-5xl'/>
             <div className="text-black font-bold mt-2">
               CURRENT WORK.
             </div>
