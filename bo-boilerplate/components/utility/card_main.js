@@ -16,10 +16,7 @@ const CardM = props => {
          <p className="mt-4 text-xl">
             <code>{data.subtitle}</code>
           </p>
-            <p>
               <p>{data.desc}</p>
-            </p>
-
         </a>
     )
         
