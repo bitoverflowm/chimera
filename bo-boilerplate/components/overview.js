@@ -7,7 +7,7 @@ const OverView = (props) => {
 
   return (
       <div className="flex flex-wrap items-center justify-around max-w-7xl mt-6 sm:w-full">
-        {data?.map((data) => (
+        {data.map((data) => (
           <CardM data={data.attributes} key={data.id} />
         ))}
       </div>

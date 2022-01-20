@@ -9,15 +9,13 @@ export async function getServerSideProps(){
   const overViewData = await res.json()
 
   //const res2 = await fetch('http://localhost:1337/api/verdeblocks/')
-  //const moreData = await res2.json()
-  return { props: {overViewData}}
+  const res2 = await fetch('https://mighty-anchorage-30412.herokuapp.com/api/bit-overflow-mores/')
+  const moreData = await res2.json()
+
+  return { props: {overViewData, moreData}}
 }
 
-const Home = ({overViewData}) => {
-
-//export default function Home(props) {
-
-  console.log(overViewData.data)
+const Home = ({overViewData, moreData}) => {
 
   return (
     <div>
@@ -45,7 +43,7 @@ const Home = ({overViewData}) => {
             </div>
         </div>    
         <OverView data={overViewData.data}/>
-        <More />
+        <More data={moreData.data}/>
       </main>
       
       
