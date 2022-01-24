@@ -1,5 +1,6 @@
 import Emoji_Engine from "../components/emoji_engine";
 import More from "../components/more";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -28,16 +29,18 @@ export default function Home() {
             </div>
         </div>    
         <div className="flex flex-wrap items-center justify-around max-w-7xl mt-6 sm:w-full">
-          <a href="" 
-          className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
-            <Emoji_Engine label="verdeblocks"/>
-            <h3 className="text-2xl font-bold">VerdeBlocks &rarr;</h3>
-            <p className="mt-4 text-xl">
-              <code>The future of energy</code>
-            </p>
-            <p>A wholesale electric trading platform utilizing decentralized infrastructure to ensure instant, secure, guaranteed payment upon delivery.
-            </p>
-          </a>
+          <Link href="www.verdeblocks.com">
+            <a href="" 
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
+              <Emoji_Engine label="verdeblocks"/>
+              <h3 className="text-2xl font-bold">VerdeBlocks &rarr;</h3>
+              <p className="mt-4 text-xl">
+                <code>The future of energy</code>
+              </p>
+              <p>An energy trading platform utilizing decentralized infrastructure to ensure instant, secure, guaranteed payment upon delivery.
+              </p>
+            </a>
+          </Link>
 
           <a href="" 
           className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
