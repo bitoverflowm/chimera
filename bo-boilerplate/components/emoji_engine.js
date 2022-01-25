@@ -18,7 +18,8 @@ const Emoji_Engine = props => {
         'PayUp': '💸',
         'Mariott Data Breach' : '👾',
         'VentureBeat': '💩',
-        'BestLife': '🌈'
+        'BestLife': '🌈',
+        'quantum': '🕉️',
     }
 
     return (

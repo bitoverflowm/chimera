@@ -42,6 +42,22 @@ export default function Home() {
             </a>
           </Link>
 
+          <a
+            href=""
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+          >
+            <Emoji_Engine label="quantum"/>
+            <h3 className="text-2xl font-bold">The Quantum Initiative &rarr;</h3>
+            <p className="mt-4 text-xl">
+              <code>Quantum Research</code>
+            </p>
+            <p>
+              Sometimes the world needs a new paradigm. 
+              BitOverflow's Quantum Initiative program is just that. 
+              We search where noone is searching. We execute what noone thinks to survive. 
+            </p>
+          </a>
+
           <a href="" 
           className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
             <Emoji_Engine label="defungable"/>
