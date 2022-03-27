@@ -14,7 +14,7 @@ export default function Home() {
               Built Different.
           </div>
         </div>
-        <video autoPlay loop muted className="absolute z-10 w-auto min-w-full min-h-full max-w-none" >
+        <video autoPlay loop muted playsinline="true" className="absolute z-10 w-auto min-w-full min-h-full max-w-none" >
           <source src="/videos/background2-block-0.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -38,6 +38,21 @@ export default function Home() {
                 <code>The future of energy</code>
               </p>
               <p>An energy trading platform utilizing decentralized infrastructure to ensure instant, secure, guaranteed payment upon delivery.
+              </p>
+            </a>
+          </Link>
+          
+          <Link href="https://www.bazaar.farm/">
+            <a
+              className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+            >
+              <Emoji_Engine label="bazaar"/>
+              <h3 className="text-2xl font-bold">Bazaar &rarr;</h3>
+              <p className="mt-4 text-xl">
+                <code>Global, decentralized, infinitely scalable, sustainable food supply</code>
+              </p>
+              <p>
+                Bazaar solves a global problem with a local solution. Global network of local food producers will eliminate the need for a bloated inefficient supply chain
               </p>
             </a>
           </Link>
@@ -91,20 +106,6 @@ export default function Home() {
             </p>
             <p>
               All health data combined in one place. Get ultimate precision in healthcare optimization using cutting edge scientific research.
-            </p>
-          </a>
-
-          <a
-            href=""
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <Emoji_Engine label="bazaar"/>
-            <h3 className="text-2xl font-bold">Bazaar &rarr;</h3>
-            <p className="mt-4 text-xl">
-              <code>Global, decentralized, infinitely scalable, sustainable food supply</code>
-            </p>
-            <p>
-              Bazaar solves a global problem with a local solution. Global network of local food producers will eliminate the need for a bloated inefficient supply chain
             </p>
           </a>
 
