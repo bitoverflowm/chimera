@@ -19,15 +19,15 @@ const Home = ({overViewData, moreData}) => {
 
   return (
     <div>
-      <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
-        <div className="absolute left-10 top-10 z-30 text-white text-4xl font-bold">
+      <header className="relative flex items-center justify-center h-screen sm:mb-12 overflow-hidden">
+        <div className="absolute sm:left-10 top-10 z-30 text-white text-4xl font-bold">
             BitOverflow
         </div>
         <div className="grid grid-cols-1">
-          <div className="relative z-30 text-white text-9xl font-extrabold">
+          <div className="relative z-30 text-white text-6xl sm:text-9xl font-extrabold">
               Built
           </div>
-          <div className="relative z-30 text-white text-9xl font-extrabold">
+          <div className="relative z-30 text-white text-6xl sm:text-9xl font-extrabold">
               Different.
           </div>
         </div>
@@ -39,61 +39,61 @@ const Home = ({overViewData, moreData}) => {
         <link rel="icon" href="/favicon.ico" />
       </header>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <div className="relative mt-6 p-16 text-6xl text-left">
+      <main className="flex flex-col items-center justify-center sm:px-20 text-center">
+        <div className="relative mt-6 sm:p-16 text-xl sm:text-6xl text-left">
             <div className="text-black font-extrabold mt-2">
               BitOverflow is the future.
             </div>
             <div className="text-black mt-2">
-            <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">EVERYTHING</span> <span className="underline"> hand-crafted</span>
+              <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">EVERYTHING</span> <span className="underline"> hand-crafted</span>
             </div>
             <div className="text-black mt-2">
               <span className="font-extrabold">EVERYTHING</span> <span className="text-transparent bg-clip-text bg-gradient-to-br from-nft-purple to-nft-cotton font-extrabold">in-house </span>
             </div>
-            <div className=" mt-2 font-extrabold text-8xl text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">
+            <div className="mt-2 font-extrabold text-3xl sm:text-8xl text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">
              Built Different.
             </div>
         </div>
-        <div className="w-5/6 my-14 p-8 text-lg font-bold bg-gradient-to-br from-nft-sky to-nft-aqua">
-            <div className="font-bold mt-2 text-4xl text-white p-4">
+        <div className="w-full sm:w-5/6 my-14 pb-8 sm:p-8 text-sm sm:text-lg font-bold bg-gradient-to-br from-nft-sky to-nft-aqua">
+            <div className="font-bold mt-2 text-xl sm:text-4xl text-white p-4">
                 Our Focus Areas
             </div>
-            <div className="flex place-content-center cursor-pointer font-extrabold ">
-              <div className="rounded-full py-2 px-5 m-2 bg-white">
+            <div className="flex place-content-center cursor-pointer sm:font-extrabold ">
+              <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
                 <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">Sustainability</div>
               </div>
-              <div className="rounded-full py-2 px-5 m-2 bg-white">
+              <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
               <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">Decentralization</div>
               </div>
             </div>
-            <div className="flex place-content-center cursor-pointer font-extrabold">
-              <div className="rounded-full py-2 px-5 m-2 bg-white">
-                <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">Local Growth</div>
+            <div className="flex place-content-center cursor-pointer sm:font-extrabold">
+              <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
+                <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">Blockchain</div>
               </div>
-              <div className="rounded-full py-2 px-5 m-2 bg-white">
+              <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
                 <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">AI</div>
               </div>
-              <div className="rounded-full py-2 px-5 m-2 bg-white">
+              <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
                 <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">Health</div>
               </div>        
-              <div className="rounded-full py-2 px-5 m-2 bg-white">
+              <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
                 <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">Crypto</div>
               </div>
             </div>
-            <div className="flex place-content-center cursor-pointer font-extrabold">
-              <div className="rounded-full py-2 px-5 m-2 bg-white">
+            <div className="flex place-content-center cursor-pointer sm:font-extrabold">
+              <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
                 <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">NFTs</div>
               </div>
-              <div className="rounded-full py-2 px-5 m-2 bg-white">
+              <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
                 <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">VR/AR</div>
               </div>
-              <div className="rounded-full py-2 px-5 m-2 bg-white">
+              <div className="rounded-full py-2 sm:py-2 px-3 sm:px-5 m-2 bg-white">
                 <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">Physics</div>
               </div>
             </div>   
         </div>
 
-        <div className="flex relative mt-6 text-8xl">
+        <div className="flex relative mt-6 text-4xl sm:text-8xl">
             <div className="text-black font-extrabold mt-2">
               WORK.
             </div>
@@ -101,8 +101,6 @@ const Home = ({overViewData, moreData}) => {
         <OverView data={overViewData.data}/>
         <More data={moreData.data}/>
       </main>
-      
-      
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
 

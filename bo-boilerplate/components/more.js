@@ -10,7 +10,7 @@ const More = (props) => {
       <div className="relative text-black text-6xl font-bold bg-transparent mt-6">
         MORE.
       </div>
-      <div className="flex flex-wrap items-center justify-around max-w-7xl py-6">
+      <div className="flex flex-wrap items-center justify-around sm:max-w-7xl sm:py-6">
         {data.map((data) => (
           <Card data={data.attributes} key={data.id} />
         ))}
