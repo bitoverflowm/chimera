@@ -9,7 +9,12 @@ module.exports = {
         'nft-blue': '#2F80ED',
         'nft-glow': '#B2FFDA',
         'nft-purple': '#737DFE',
-        'nft-cotton': '#FFCAC9'
+        'nft-cotton': '#FFCAC9',
+        'nft-sky': '#9055FF',
+        'nft-aqua': '#13E2DA',
+        'nft-orange': '#F06966',
+        'nft-orange-light': '#FAD6A6'
+
       }
     },
   },

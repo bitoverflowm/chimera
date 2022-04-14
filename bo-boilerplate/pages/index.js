@@ -54,25 +54,48 @@ const Home = ({overViewData, moreData}) => {
              Built Different.
             </div>
         </div>
-        <div className="grid grid-cols-1 mt-6 p-4 m-4">
-            <div className="font-bold mt-2 text-4xl">
-              Our Focus Areas
+        <div className="w-5/6 my-14 p-8 text-lg font-bold bg-gradient-to-br from-nft-sky to-nft-aqua">
+            <div className="font-bold mt-2 text-4xl text-white p-4">
+                Our Focus Areas
             </div>
-            <div className="flex flex-wrap text-lg font-bold place-content-center">
-              <div className="bg-gradient-to-br rounded-lg p-2 m-2 from-nft-purple to-nft-cotton hover:from-nft-blue hover:to-nft-glow hover:text-transparent hover:bg-clip-text ">Sustainability</div>
-              <div className="bg-gradient-to-br rounded-lg p-2 m-2 from-nft-purple to-nft-cotton hover:from-nft-blue hover:to-nft-glow hover:text-transparent hover:bg-clip-text ">Decentralization</div>
-              <div className="bg-gradient-to-br rounded-lg p-2 m-2 from-nft-purple to-nft-cotton hover:from-nft-blue hover:to-nft-glow hover:text-transparent hover:bg-clip-text ">Local Community Development</div>
-              <div className="bg-gradient-to-br rounded-lg p-2 m-2 from-nft-purple to-nft-cotton hover:from-nft-blue hover:to-nft-glow hover:text-transparent hover:bg-clip-text ">AI</div>
-              <div className="bg-gradient-to-br rounded-lg p-2 m-2 from-nft-purple to-nft-cotton hover:from-nft-blue hover:to-nft-glow hover:text-transparent hover:bg-clip-text ">Health</div>
-              <div className="bg-gradient-to-br rounded-lg p-2 m-2 from-nft-purple to-nft-cotton hover:from-nft-blue hover:to-nft-glow hover:text-transparent hover:bg-clip-text ">Crypto</div>
-              <div className="bg-gradient-to-br rounded-lg p-2 m-2 from-nft-purple to-nft-cotton hover:from-nft-blue hover:to-nft-glow hover:text-transparent hover:bg-clip-text ">NFTs</div>
-              <div className="bg-gradient-to-br rounded-lg p-2 m-2 from-nft-purple to-nft-cotton hover:from-nft-blue hover:to-nft-glow hover:text-transparent hover:bg-clip-text ">VR</div>
-            </div>     
+            <div className="flex place-content-center cursor-pointer font-extrabold ">
+              <div className="rounded-full py-2 px-5 m-2 bg-white">
+                <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">Sustainability</div>
+              </div>
+              <div className="rounded-full py-2 px-5 m-2 bg-white">
+              <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">Decentralization</div>
+              </div>
+            </div>
+            <div className="flex place-content-center cursor-pointer font-extrabold">
+              <div className="rounded-full py-2 px-5 m-2 bg-white">
+                <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">Local Growth</div>
+              </div>
+              <div className="rounded-full py-2 px-5 m-2 bg-white">
+                <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">AI</div>
+              </div>
+              <div className="rounded-full py-2 px-5 m-2 bg-white">
+                <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">Health</div>
+              </div>        
+              <div className="rounded-full py-2 px-5 m-2 bg-white">
+                <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">Crypto</div>
+              </div>
+            </div>
+            <div className="flex place-content-center cursor-pointer font-extrabold">
+              <div className="rounded-full py-2 px-5 m-2 bg-white">
+                <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">NFTs</div>
+              </div>
+              <div className="rounded-full py-2 px-5 m-2 bg-white">
+                <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">VR/AR</div>
+              </div>
+              <div className="rounded-full py-2 px-5 m-2 bg-white">
+                <div className="text-black  hover:bg-gradient-to-br hover:to-nft-sky hover:from-nft-aqua hover:text-transparent hover:bg-clip-text">Physics</div>
+              </div>
+            </div>   
         </div>
 
-        <div className="flex relative mt-6 text-5xl">
-            <div className="text-black font-bold mt-2">
-              CURRENT WORK.
+        <div className="flex relative mt-6 text-8xl">
+            <div className="text-black font-extrabold mt-2">
+              WORK.
             </div>
         </div>    
         <OverView data={overViewData.data}/>
