@@ -2,7 +2,7 @@ import Emoji_Engine from "../components/emoji_engine";
 import More from "../components/more";
 import OverView from "../components/overview";
 
-export async function getServerSideProps(){
+export async function getStaticProps(){
 
   const res = await fetch('https://mighty-anchorage-30412.herokuapp.com/api/bit-overflows')
   //const res = await fetch('http://localhost:1337/api/verdeblocks/')
