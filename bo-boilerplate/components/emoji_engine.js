@@ -8,7 +8,7 @@ const Emoji_Engine = props => {
         'unicorn' : '🦄',
         'VerdeBlocks' : '🐳',
         'Bazaar' : '🍆',
-        'Defungable' : '🧁',
+        'DiFunk' : '🧁',
         '0_o' : '🧬',
         'The Nepal Initiative' : '🌌',
         'BudOverflow' : '👽',
@@ -21,7 +21,7 @@ const Emoji_Engine = props => {
         'Mariott Data Breach' : '👾',
         'VentureBeat': '💩',
         'BestLife': '🌈',
-        'quantum': '🕉️',
+        'The Quantum Initiative': '🕉️',
         'love': '❤️'
     }
 

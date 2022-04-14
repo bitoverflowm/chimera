@@ -97,7 +97,7 @@ const Home = ({overViewData, moreData}) => {
             <div className="text-black font-extrabold mt-2">
               WORK.
             </div>
-        </div>    
+        </div>
         <OverView data={overViewData.data}/>
         <More data={moreData.data}/>
       </main>
