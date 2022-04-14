@@ -22,6 +22,7 @@ const Emoji_Engine = props => {
         'VentureBeat': '💩',
         'BestLife': '🌈',
         'quantum': '🕉️',
+        'love': '❤️'
     }
 
     return (
