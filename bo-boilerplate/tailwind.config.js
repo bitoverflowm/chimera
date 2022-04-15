@@ -15,6 +15,20 @@ module.exports = {
         'nft-orange': '#F06966',
         'nft-orange-light': '#FAD6A6'
 
+      },
+      keyframes: {
+        fadeIn : {
+          "0%" : { opacity: '0%'},
+          "100%": { opacity: '100%'}
+        },
+        fadeOut : {
+          "0%" : { opacity: '100%'},
+          "100%": { opacity: '0%'}
+        }
+      },
+      animation: {
+        fadeIn: "fadeIn 100ms ease-in",
+        fadeOut: "fadeOut 100ms ease-out",
       }
     },
   },

@@ -4,12 +4,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export" 
+    "export": "next export"
   },
   "dependencies": {
+    "formik": "^2.2.9",
     "next": "latest",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.1",

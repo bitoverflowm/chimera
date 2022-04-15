@@ -1,6 +1,9 @@
+import react, {useState} from "react";
+
 import Emoji_Engine from "../components/emoji_engine";
 import More from "../components/more";
 import OverView from "../components/overview";
+import Chat from "../components/chat";
 
 export async function getStaticProps(){
 
@@ -16,9 +19,25 @@ export async function getStaticProps(){
 }
 
 const Home = ({overViewData, moreData}) => {
+  const [visible, setVisible] = useState();
+
+  const clickHandler = () => {
+    setVisible(!visible);
+  }
+
 
   return (
-    <div>
+    <div className="relative">
+      {visible && <div className={'fixed right-3 bottom-4 h-auto w-80 sm:w-1/3 z-40 bg-white  items-center place-content-center animate-fadeIn'}><div className="p-10"><Chat /></div></div>}
+      { visible 
+        ? <div onClick={clickHandler} className="fixed bottom-5 right-5 z-50 hover:text-white font-extrabold hover:bg-black rounded-full p-4 opacity-75 cursor-pointer hover:opacity-100 bg-yellow-300 text-black">
+        X
+          </div>
+        : <div onClick={clickHandler} className="fixed bottom-5 right-5 z-30 text-white font-extrabold bg-black rounded-full p-4 opacity-75 cursor-pointer hover:opacity-100 hover:bg-yellow-300 hover:text-black">
+        Want to chat?
+        </div>
+      }
+      
       <header className="relative flex items-center justify-center h-screen sm:mb-12 overflow-hidden">
         <div className="absolute sm:left-10 top-10 z-30 text-white text-4xl font-bold">
             BitOverflow
