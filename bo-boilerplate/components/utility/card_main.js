@@ -2,21 +2,12 @@ import React, { useState, useEffect } from "react";
 import Emoji_Engine from "../emoji_engine";
 
 
-
 const CardM = props => {
     const [refReplace, setRefReplace] = useState();
-    const data = props.data;
-
-    
+    const data = props.data;    
 
     useEffect(()=> {
-        if(data.title === "VerdeBlocks"){
-            setRefReplace("https://www.verdeblocks.com/");
-        }else if(data.title === "Bazaar"){
-            setRefReplace("https://www.bazaar.farm/");
-        }else{
-            setRefReplace(data.action);
-        }
+        setRefReplace(data.action);
     },[data])
 
     return (

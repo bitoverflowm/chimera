@@ -1,24 +1,115 @@
-import react, {useState} from "react";
-
-import Emoji_Engine from "../components/emoji_engine";
-import More from "../components/more";
+import {useState} from "react";
 import OverView from "../components/overview";
 import Chat from "../components/chat";
 
 export async function getStaticProps(){
+  const overViewData = {
+    'data' : [
+      {
+      'id': 0,
+      'attributes': {
+        'title': "VerdeBlocks",
+        'subtitle': "The Future of Clean Energy",
+        'desc': "Any business can now switch their consumption to 100% renewable energy at the click of a button. No need to invest millions in installing solar panels, or setting up a distant solar farm. As long as you are connected to the grid, you can consume 100% veriafiably clean energy.",
+        'action': "https://www.verdeblocks.com/"
+      }
+    },
+    {
+      'id': 1,
+      'attributes': {
+        'title': "Bazaar",
+        'subtitle': "Get Your Groceries Directly from Your Local Farmer",
+        'desc': "The current commercial food supply system is not sustainable. Local solutions to global problems, like supporting local farmers, can help save the planet by reducing carbon emissions. By buying from your local farmer, you not only support small businesses, but also make a positive impact on the environment.",
+        'action': "https://www.bazaar.farm/"
+      },
+    },
+    {
+      'id': 2,
+      'attributes': {
+        'title': "DiFunk",
+        'subtitle': "NFTs on NFTs on NFTs",
+        'desc': "Actually decentralized. Actually built properly. All mediums of NFTs. The easiest minter in the world. The easiest P2P NFT transfers and escrow mechanism. All actually decentralized. The bestest, the easiest the mostest, betterest NFT platform there ever is, has been and will be.",
+        'action': "https://www.bazaar.farm/"
+      },
+    },
+    {
+      'id': 3,
+      'attributes': {
+        'title': "The Quantum Initiative",
+        'subtitle': "Quantum physics not quantum computers",
+        'desc': "Forging our independent path towards Quantum Supremacy.",
+        'action': "https://www.bazaar.farm/"
+      },
+    },
+    {
+      'id': 4,
+      'attributes': {
+        'title': "0_o: TheYouuProject",
+        'subtitle': "Take your life, your health and well being to the next level",
+        'desc': "Headspace but for research backed protocols proposed by geniuses such as Dr. Andrew Huberman, Dr. Rhonda Patrick, Dr David Sinclair. Bite sized, simplified and developed with the ultimate user friendliness in mind. Try it out, and tell us your life han't improved",
+        'action': "https://www.bazaar.farm/"
+      }
+    },
+    {
+        'id': 5,
+        'attributes': {
+          'title': "BudOverflow",
+          'subtitle': "The Craft of Cannabis, and soon psychedelics",
+          'desc': "We never know how what we are smoking is going to make us feel. Until now. The #1 most trusted platform for you to learn about what you are consuming, how it will make you feel, and whether it is any good at all. Give your feedback and earn tokens!",
+          'action': "https://www.bazaar.farm/"
+        }
+    },
+    {
+      'id': 6,
+      'attributes': {
+        'title': "Hacking 101",
+        'subtitle': "From N00b to Omnipotent Cyber-Overlord",
+        'desc': "Take your hacking skills to the next level with this comprehensive course. From beginner to god tier, you'll learn the ins and outs of computer systems, security, and ethical hacking. Gain hands-on experience with the tools and techniques used by the pros, and become an omnipotent cyber-overlord in no time!",
+        'action': "https://www.bazaar.farm/"
+      }
+    },
+    {
+      'id': 7,
+      'attributes': {
+        'title': "0_o: Pets",
+        'subtitle': "Biohacking but for your pets",
+        'desc': "Are you tired of relying on witch doctors and voodoo magic to keep your furry friend healthy? Look no further! Our platform uses actual science to help you optimize your pet's health. With our cutting-edge algorithms and advanced data analysis, you'll be able to give your pet the best care possible – no sacrifices to the pet health gods required.",
+        'action': "https://www.bazaar.farm/"
+      }
+    },
+    {
+      'id': 8,
+      'attributes': {
+        'title': "LetsSpar",
+        'subtitle': "Find someone to spar with any time any day",
+        'desc': "Are you tired of punching and kicking the air (and maybe a few unsuspecting bystanders)? Look no further! Our platform connects you with other boxing and kickboxing enthusiasts who are looking for sparring partners. So why wait? Sign up today and start pummeling your way to victory (or at least a good sweat). Just remember to bring your own gloves – we're not responsible for any lost teeth or black eyes.",
+        'action': "https://www.bazaar.farm/"
+      }
+    },
+    {
+      'id': 9,
+      'attributes': {
+        'title': "FindMeAFarmersMarket",
+        'subtitle': "Just find me a farmers market closest to me",
+        'desc': "No explanation needed here.",
+        'action': "https://www.bazaar.farm/"
+      }
+    },
+    {
+      'id': 10,
+      'attributes': {
+        'title': "PetNFT",
+        'subtitle': "Turn your pet into an NFT",
+        'desc': "Are you tired of your pet being just another mundane, non-fungible animal? Well, fear not! Our platform turns your beloved companion into a one-of-a-kind, highly-coveted NFT. Imagine your pet's face on trading cards, t-shirts, and even coffee mugs. The possibilities are endless! So why wait? Sign up today and start cashing in on your pet's fame (or at least their cuteness).",
+        'action': "https://www.bazaar.farm/"
+      }
+    },
+  ]}
 
-  const res = await fetch('https://mighty-anchorage-30412.herokuapp.com/api/bit-overflows')
-  //const res = await fetch('http://localhost:1337/api/verdeblocks/')
-  const overViewData = await res.json()
-
-  //const res2 = await fetch('http://localhost:1337/api/verdeblocks/')
-  const res2 = await fetch('https://mighty-anchorage-30412.herokuapp.com/api/bit-overflow-mores/')
-  const moreData = await res2.json()
-
-  return { props: {overViewData, moreData}}
+  return { props: {overViewData}}
 }
 
-const Home = ({overViewData, moreData}) => {
+const Home = ({overViewData}) => {
   const [visible, setVisible] = useState();
 
   const clickHandler = () => {
@@ -118,7 +209,7 @@ const Home = ({overViewData, moreData}) => {
             </div>
         </div>
         <OverView data={overViewData.data}/>
-        <More data={moreData.data}/>
+        {/* <More data={moreData.data}/> */}
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
