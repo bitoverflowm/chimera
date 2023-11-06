@@ -51,16 +51,7 @@ export async function getStaticProps(){
       }
     },
     {
-        'id': 5,
-        'attributes': {
-          'title': "BudOverflow",
-          'subtitle': "The Craft of Cannabis, and soon psychedelics",
-          'desc': "We never know how what we are smoking is going to make us feel. Until now. The #1 most trusted platform for you to learn about what you are consuming, how it will make you feel, and whether it is any good at all. Give your feedback and earn tokens!",
-          'action': "https://www.bazaar.farm/"
-        }
-    },
-    {
-      'id': 6,
+      'id': 5,
       'attributes': {
         'title': "Hacking 101",
         'subtitle': "From N00b to Omnipotent Cyber-Overlord",
@@ -69,7 +60,7 @@ export async function getStaticProps(){
       }
     },
     {
-      'id': 7,
+      'id': 6,
       'attributes': {
         'title': "0_o: Pets",
         'subtitle': "Biohacking but for your pets",
@@ -78,7 +69,7 @@ export async function getStaticProps(){
       }
     },
     {
-      'id': 8,
+      'id': 7,
       'attributes': {
         'title': "LetsSpar",
         'subtitle': "Find someone to spar with any time any day",
@@ -87,7 +78,7 @@ export async function getStaticProps(){
       }
     },
     {
-      'id': 9,
+      'id': 8,
       'attributes': {
         'title': "FindMeAFarmersMarket",
         'subtitle': "Just find me a farmers market closest to me",
@@ -96,7 +87,7 @@ export async function getStaticProps(){
       }
     },
     {
-      'id': 10,
+      'id': 9,
       'attributes': {
         'title': "PetNFT",
         'subtitle': "Turn your pet into an NFT",
